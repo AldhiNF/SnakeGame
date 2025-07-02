@@ -28,6 +28,7 @@ A simple yet addictive implementation of the classic Snake game, built using Pyg
 If you don't have Python installed, you can run the .exe file directly: Download the .exe file from the Releases page. Double-click the .exe file to start the game. Enjoy the Classic Snake Game !!!
 
 ## Project Structure
+```bash
 your_repository_name/
 ├── main_game.py        # Main game logic and Pygame loop
 ├── ular.py             # Snake class definition
@@ -36,6 +37,7 @@ your_repository_name/
 ├── aset/               # Folder for all image assets (snake head, body, food, etc.)
 │   ├── ... (your image files)
 └── README.md           # This project's documentation file
+```
 
 ## Future Ideas
 - Scoreboard / High Scores: Save and display the top scores locally or online.
