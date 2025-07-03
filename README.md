@@ -28,7 +28,7 @@ A simple yet addictive implementation of the classic Snake game, built using Pyg
 If you don't have Python installed, you can run the .exe file directly: Download the .exe file from the Releases page. Double-click the .exe file to start the game. Enjoy the Classic Snake Game !!!
 ### File Download
 ```
-  https://drive.google.com/file/d/1WQr7AaFfKAmz-33sb0ZexT3ic0d7ygVC/view?usp=sharing
+  https://drive.google.com/file/d/1KOmLdtR6ZA_br_sgQuTG_bM8Fnnah751/view?usp=sharing
 ```
 
 ## Project Structure
