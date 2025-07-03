@@ -22,7 +22,6 @@ class Ular:
         self.skor = 0       
 
         # --- MEMUAT SEMUA GAMBAR ULAR ---
-        # ... (bagian ini tidak perlu diubah, tetap sama seperti kode terakhir yang saya berikan) ...
 
         self.gambar_kepala = {}
         self.gambar_badan_lurus = {}
@@ -72,8 +71,6 @@ class Ular:
 
     def gerak(self):
         """Menggerakkan kepala ular dan memperbarui posisi badan."""
-        # Salin posisi kepala saat ini untuk dijadikan segmen baru di depan
-        kepala_lama = list(self.kepala) 
 
         # Perbarui posisi kepala berdasarkan arah
         if self.arah == "ATAS":
@@ -139,7 +136,6 @@ class Ular:
                 # pygame.draw.rect(layar, (255, 165, 0), (posisi_ekor[0], posisi_ekor[1], UKURAN_KOTAK, UKURAN_KOTAK)) # Kotak oranye untuk debug
 
             # --- Gambar Badan Ular (dari segmen kedua hingga sebelum ekor) ---
-            # ... (bagian ini tidak berubah, tetap sama seperti kode terakhir yang saya berikan) ...
             for i in range(1, len(self.badan) - 1):
                 segmen_saat_ini = self.badan[i]
                 segmen_sebelumnya = self.badan[i-1]
