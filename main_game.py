@@ -5,7 +5,7 @@ import sys
 # Impor kelas dan konstanta dari file lain
 from config import (
     LEBAR_LAYAR, TINGGI_LAYAR, UKURAN_KOTAK, PUTIH, FONT, HIJAU_MUDA, HIJAU_TUA,
-    FPS_AWAL_GAME, SKOR_PER_PENINGKATAN_FPS, PENINGKATAN_FPS, FPS_MAKSIMAL_GAME # Import konstanta kecepatan BARU
+    FPS_AWAL_GAME, SKOR_PER_PENINGKATAN_FPS, PENINGKATAN_FPS, FPS_MAKSIMAL_GAME 
 )
 from ular import Ular
 from makanan import Makanan
