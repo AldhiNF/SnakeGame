@@ -15,7 +15,7 @@ pygame.init()
 
 # --- Pengaturan Jendela Game ---
 LAYAR = pygame.display.set_mode((LEBAR_LAYAR, TINGGI_LAYAR))
-pygame.display.set_caption("Game Snake Keren Anda")
+pygame.display.set_caption("Game Snake Classic")
 
 # --- Fungsi untuk Menggambar Background Berpola Dua Warna ---
 def gambar_background_pola(layar_game):
@@ -113,7 +113,6 @@ def main_game():
                         FPS_saat_ini = FPS_MAKSIMAL_GAME
                     print(f"Kecepatan game meningkat! FPS saat ini: {FPS_saat_ini}") # Debugging
                     skor_untuk_peningkatan_fps += SKOR_PER_PENINGKATAN_FPS # Atur target skor berikutnya
-            # --- AKHIR BARU ---
 
             # Hasilkan posisi makanan baru, pastikan tidak muncul di badan ular
             while True:
